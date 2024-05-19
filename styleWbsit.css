@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+#container{
+    margin-left: 1.5%;
+}
+.cards {
+    background-color: #e0d9d9;
+    padding: 3% ;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 25.6%;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.card1{
+    margin-right: 15px;
+}
+.card2{
+    margin-right: 15px;
+}
+span {
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.sp1{
+    width: 60px;
+    background-color: red;
+}
+.sp2{
+    width: 60px;
+    background-color: rgb(93, 35, 202);
+}
+.sp3{
+    background-color: rgb(245, 226, 53);
+}
+
+
+
+ @media (max-width: 768px) {
+    span{
+        margin-bottom: 8px;
+    }
+    .cards {
+     padding-top:18px ;
+     width: 85%;
+     margin-bottom: 15px;
+    }
+    #container{
+        margin-left: 8.5%;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px) {
+    .card3 {
+        margin-top: 18px;
+        margin-left: 2.5%;
+        clear: both;
+        width: 89%;
+
+    }
+    .card1{
+        float: left;
+        width: 40%;
+        margin-right: 18px;
+        margin-left: 2.5%;
+    }
+    .card2{
+        margin-right: 0;
+        float: left;
+        width: 40%;
+    }
+}
